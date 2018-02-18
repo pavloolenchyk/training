@@ -1,0 +1,7 @@
+diff --git a/readme.txt b/readme.txt
+index 058b21d..aba5d38 100644
+--- a/readme.txt
++++ b/readme.txt
+@@ -1 +1,2 @@
+ This project is just for training, no commercial purposes.
++I am trying to learn how to use the git init, add, and commit commands.
