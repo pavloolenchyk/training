@@ -5,3 +5,4 @@ index 058b21d..aba5d38 100644
 @@ -1 +1,2 @@
  This project is just for training, no commercial purposes.
 +I am trying to learn how to use the git init, add, and commit commands.
+To show that I can actually use git.
