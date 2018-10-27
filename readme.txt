@@ -1,3 +1,2 @@
-This project is just for training, no commercial purposes.
-I am trying to learn how to use the git init, add, and commit commands.
+SSH keys up and running(hopefully), this will be the first commit test.
 EDIT: rm -rf ABSOLUTELY deletes everything.
