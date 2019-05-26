@@ -12,6 +12,8 @@ end
 
 class Human < Primate
    def talk
-      puts "Hello World!"
+      puts "Hello, my name is"
+   end
+   def initialize(name)
    end
 end
