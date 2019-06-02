@@ -1,12 +1,10 @@
-iclass Mammal
+class Mammal
    def breathe
        puts "inhale, exhale"
    end
-   def set_weight(n)
-       @weight = n
-   end
-   def set_age(n)
-       @age = n
+   def initialize(weight,age)
+       @weight = weight
+       @age = age
    end
 end
 
@@ -20,10 +18,8 @@ class Human < Primate
    def talk
       puts "Hello, my name is"
    end
-   def set_firstname(name)
-       @firstname = name
-   end
-   def set_lastname(name)
-       @lastname = name
-   end
+   def initialize(firstname,lastname)
+       @first_name = firstname
+       @last_name = lastname
+   end   
 end
