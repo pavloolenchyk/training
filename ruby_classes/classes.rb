@@ -1,35 +1,41 @@
+#!/usr/bin/ruby
+
+x = 0
+y = 0
+z = 0
+
 class Mammal
-   def breathe
-       puts "inhale, exhale"
-   end
-   def initialize(weight,age)
-       @weight = weight
-       @age = age
-   end
-   x = 0
+   puts "Add-a-mammal"
+   def addmammal(mammal)
+   @mammal = mammal
+end
+   def displaymammal()
+   puts "Mammal #@mammal"
    x += 1
+end
 end
 
 class Primate < Mammal
-   def eat()
-      puts "chomp"
-   end
-   y = 0
+   puts "Add-a-primate"
+   def addprimate(primate)
+   @primate = primate
+end
+   def displayprimate()
+   puts "Primate #@primate"
    y += 1
+end
 end
 
 class Human < Primate
-   def talk
-      puts "Hello, my name is"
-   end
-   def initialize(firstname,lastname)
-       @first_name = firstname
-       @last_name = lastname
-   end
-   z = 0
-   z += 1
-   
-   @population = x + y + z
-
-   puts "Population = " + population 
+   puts "Add-a-human"
+   def addhuman (human)
+   @human = human
 end
+   def addhuman ()
+   puts "Human #@human"
+   z += 1
+end
+end
+   
+   population = x + y + z
+   puts "Population = " + population.to_s
