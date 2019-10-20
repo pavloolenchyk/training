@@ -11,7 +11,7 @@ class Mammal
 end
    def displaymammal()
    puts "Mammal #@mammal"
-   x += 1
+   @@x += 1
 end
 end
 
@@ -22,7 +22,7 @@ class Primate < Mammal
 end
    def displayprimate()
    puts "Primate #@primate"
-   y += 1
+   @@y += 1
 end
 end
 
@@ -33,9 +33,9 @@ class Human < Primate
 end
    def addhuman ()
    puts "Human #@human"
-   z += 1
+   @@z += 1
 end
 end
    
-   population = x + y + z
+   population = @@x + @@y + @@z
    puts "Population = " + population.to_s
