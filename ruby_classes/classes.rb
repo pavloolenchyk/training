@@ -6,34 +6,34 @@ z = 0
 
 class Mammal
    puts "Add-a-mammal"
-   def addmammal(mammal)
-   @mammal = mammal
+   def initialize(mammal)
+    @mammal = mammal
+   end
+   def displaymammal
+    return(@displaymammal)
 end
-   def displaymammal()
-   puts "Mammal #@mammal"
-   @@x += 1
 end
-end
+   x += 1
 
 class Primate < Mammal
    puts "Add-a-primate"
-   def addprimate(primate)
+   def initialize(primate)
    @primate = primate
 end
-   def displayprimate()
-   puts "Primate #@primate"
-   @@y += 1
+   def displayprimate
+    return(@primate)
 end
 end
 
+y += 1
+
 class Human < Primate
    puts "Add-a-human"
-   def addhuman (human)
+   def initialize (human)
    @human = human
 end
-   def addhuman ()
-   puts "Human #@human"
-   @@z += 1
+   def displayhuman
+   return(@displayhuman)
 end
 end
    
