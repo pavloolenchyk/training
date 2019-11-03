@@ -1,7 +1,7 @@
 #!/usr/bin/ruby
 
 class Primate
-  def intitialize(family)
+  def initialize(family)
     @family = family
   end
   def family
