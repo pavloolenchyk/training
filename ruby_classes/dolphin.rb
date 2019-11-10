@@ -10,7 +10,12 @@ class Mammal
   end
 end
 
+class Dolphin < Mammal
+  def initialize
+    super "dolphin"
+  end
+end
 
-winter = Mammal.new("dolphin")
+winter = Dolphin.new
 
 puts(winter.genus)
