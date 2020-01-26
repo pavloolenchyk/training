@@ -1,14 +1,7 @@
-#!/usr/bin/ruby
+require_relative 'primate'
 
-class Primate
-  def initialize(family)
-    @family = family
-  end
-  def family
-    return(@family)
+class Monkey < Primate
+  def initialize
+    super "monkey"
   end
 end
-
-albert = Primate.new("monkey")
-
-puts(albert.family)
