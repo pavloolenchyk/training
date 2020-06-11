@@ -2,13 +2,15 @@
 
 puts "Введіть цифру, яку хочете застосувати:"
 num = gets.chomp.to_i
-
-def factorial(num)
+class Factorial
+  def factorial(num)
   product = 1
-  (1..num).each do |i|
-    product = product * i
+    (1..num).each do |i|
+      product = product * i
+    end
+    @product = product
   end
-  return product
+  def product
+    return(@product)
+  end
 end
-
-puts factorial(num)
