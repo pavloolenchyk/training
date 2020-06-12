@@ -1,18 +1,16 @@
 #!/usr/bin/ruby
 
 puts "Enter number:"
-num = gets.chomp
+num = gets.chomp.to_i
 
-i = 1
 answer = 1
 
 class Integer
-  def method(num)
+  def num.method
     (i..num).each do |i|
       answer = answer * i
     end
   end
 end
 
-result = Integer.new("num")
-puts result.method
+puts answer
