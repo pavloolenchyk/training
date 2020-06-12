@@ -7,7 +7,7 @@ i = 1
 answer = 1
 
 class Integer
-  def factorial(num)
+  def method(num)
     (i..num).each do |i|
       answer = answer * i
     end
@@ -15,4 +15,4 @@ class Integer
 end
 
 result = Integer.new("num")
-puts result
+puts result.method
