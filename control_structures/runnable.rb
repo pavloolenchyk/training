@@ -2,8 +2,8 @@
 
 require_relative './factorial.rb'
 
-print "Enter number:"
+print "Enter number: "
 number = gets.chomp.to_i
 
-print "The factorial of the number:"
+print "The factorial of the number: "
 puts number.factorial
