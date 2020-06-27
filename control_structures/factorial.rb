@@ -1,14 +1,10 @@
-#!/usr/bin/ruby
-
-puts "Введіть цифру, яку хочете застосувати:"
-num = gets.chomp.to_i
-
-def factorial(num)
-  product = 1
-  (1..num).each do |i|
-    product = product * i
+class Integer
+  def factorial
+    i = 1
+    factorial = 1
+    (i..self).each do |i|
+      factorial = factorial * i
+    end
+    return factorial
   end
-  return product
 end
-
-puts factorial(num)
